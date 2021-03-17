@@ -10,12 +10,12 @@ body{
  display: flex;
  justify-content: space-between;
  padding:0;
- margin-bottom: 100px;
+ margin-bottom: 207px;
 }
 .logo{
 position: relative;
-padding:40px 0;
-padding-left: 44px;
+padding:32px 0;
+padding-left: 41px;
 /*background-image: url('img/logo.svg');*/
 width: 190px;
 height: 35px;
@@ -53,7 +53,7 @@ display: flex;
 align-items: center;
 }
 .menu__item{
-margin:0 13px;
+margin:0 14px;
 font-family: 'Roboto', 'helvetica', 'sans-serif';
 font-style: normal;
 font-weight: 500;
@@ -99,7 +99,7 @@ transition: opacity 1s, width .5s;
 }
 .main-section{
   padding-right: 63%;
-  padding-bottom: 240px;
+  padding-bottom: 200px;
   /*width: 37%*/
   background-image: url(img/section.svg);
   background-repeat: no-repeat;
@@ -115,8 +115,9 @@ transition: opacity 1s, width .5s;
   font-size: 66px;
   line-height: 87px;
   color: #000000;
-  padding-bottom: 40px;
-  margin: 0;
+  padding-bottom: 0;
+  margin-left: -3px;
+  margin-bottom: 45px;
 }
 .main__title-text_highlight{
    background: #ECF3FF;
@@ -130,8 +131,8 @@ transition: opacity 1s, width .5s;
   font-size: 22px;
   line-height: 26px;
   color: #000000;
-  padding-bottom: 59px;
-  margin: 0;
+  padding-bottom: 37px;
+  margin-left: -3px;
 }
 .main-content__button{
   font-family: 'Roboto', 'sans-serif';
@@ -142,7 +143,7 @@ transition: opacity 1s, width .5s;
   color: #FFFFFF;
   background: #0056EC;
   border-radius: 4px;
-  padding: 14px 16px;
+  padding: 18px 37px 16px 20px;
   text-decoration: none;
   opacity: 1;
   transition: opacity .5s;
