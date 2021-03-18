@@ -172,6 +172,7 @@ transition: opacity 1s, width .5s;
     text-align: center;
     color: #000000;
     padding-bottom: 44px;
+    padding-top: 183px;
   }
   .main-content__subtitle{
     font-family: 'Roboto','arial', 'helvetica';
@@ -182,13 +183,15 @@ transition: opacity 1s, width .5s;
     text-align: center;
     color: #000000;
     padding-bottom: 25px;
-
   }
   .main-section{
     background-position: top center;
-    background-size: 37%;
+    background-size: 93%;
     padding: 38px 47px 43px 48px;
   }
   .header {
  margin-bottom: 28px;
  }
+  .logo{
+    padding-bottom: 0;
+  }
