@@ -159,3 +159,36 @@ transition: opacity 1s, width .5s;
 .main-content__button:hover{
   opacity: .5;
 }
+@media (max-width:768px) {
+  .menu{
+    display: none;
+  }
+  .main-content__title{
+    font-family: 'pt_serifbold','arial', 'helvetica';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 44px;
+  }
+  .main-content__subtitle{
+    font-family: 'Roboto','arial', 'helvetica';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 25px;
+
+  }
+  .main-section{
+    background-position: top center;
+    background-size: 37%;
+    padding: 38px 47px 43px 48px;
+  }
+  .header {
+ margin-bottom: 28px;
+ }
