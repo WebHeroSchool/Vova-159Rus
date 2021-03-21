@@ -354,6 +354,9 @@ transition: opacity 1s, width .5s;
      }
    }
    @media (max-width:420px) {
+    body{
+      overflow-y: hidden;
+    }
     .wprapper{
       width: 80%;
     }
@@ -522,4 +525,4 @@ transition: opacity 1s, width .5s;
     #menu__toggle:checked ~ body {
       overflow-y: hidden;
       }
-  )
+  }
