@@ -162,7 +162,7 @@ transition: opacity 1s, width .5s;
 .hamburger-menu{
   display: none;
 }
-@media (max-width:1366px) {
+@media (max-width:1366px) and (max-width: 1024px) {
   .wprapper{
    width: 68%;
    margin: auto;
@@ -252,7 +252,7 @@ transition: opacity 1s, width .5s;
   margin-left: -3px;
   }
     }
-   @media (max-width:1024px){
+   @media (max-width:1024px) and (max-width: 375px) {
      .wprapper{
        width: 91%;
      }
