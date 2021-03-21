@@ -1,5 +1,6 @@
 body{
   /*border: dashed 1px red;*/
+  overflow-y: hidden;
 }
 .wprapper{
   width: 80%;
@@ -292,6 +293,9 @@ transition: opacity 1s, width .5s;
      .logo{
        padding-left: 39px;
      }
+     .menu__item_active::after {
+       margin-top: -4%;
+     }
      .logo__circle_color_dark-blue {
        margin-left: -7px;
        margin-top: -4px;
@@ -326,6 +330,8 @@ transition: opacity 1s, width .5s;
        font-size: 12px;
        line-height: 0px;
      }
+     .menu__item_active::after {
+       margin-top: 18%;}
      .main-section{
        padding-top: 0px;
        background-position: 90% 0%;
