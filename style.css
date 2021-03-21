@@ -1,6 +1,5 @@
 body{
   /*border: dashed 1px red;*/
-  overflow-y: hidden;
 }
 .wprapper{
   width: 80%;
@@ -519,5 +518,8 @@ transition: opacity 1s, width .5s;
       }
     #menu__toggle:checked ~ .menu__box {
       visibility: visible;
+      }
+    #menu__toggle:checked ~ body {
+      overflow-y: hidden;
       }
   )
