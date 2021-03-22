@@ -106,7 +106,7 @@ transition: opacity 1s, width .5s;
 }
 .main-section{
   padding-right: 63%;
-  padding-bottom: 200px;
+  padding-bottom: 18%;
   padding-top: 158px;
   /*width: 37%*/
   background-image: url(img/section.svg);
@@ -161,6 +161,22 @@ transition: opacity 1s, width .5s;
 }
 .hamburger-menu{
   display: none;
+}
+.tochki{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.tochki__item {
+  height: 8px;
+  width: 8px;
+  background-color: #C8DBFB;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 4px;
+  opacity: .7;
+  margin-top: 1%;
 }
 @media (max-width: 1600px) {
 .main-section{
@@ -257,11 +273,14 @@ transition: opacity 1s, width .5s;
   margin-left: -4px;
   }
   .main-section{
-  background-position: 101% 41%;
+  background-position: 101% 48%;
   background-size: 55%;
   padding-right: 0;
   padding-top: 64px;
   margin-left: -3px;
+  }
+  .tochki__item {
+  margin-top: -1%;
   }
     }
     @media (max-width:1280px) {
@@ -310,6 +329,9 @@ transition: opacity 1s, width .5s;
      .main-content__button {
        margin-left: -6px;
      }
+     .tochki__item {
+     margin-top: -2%;
+}
    }
    @media (max-width:900px){
      .wprapper{
@@ -333,8 +355,8 @@ transition: opacity 1s, width .5s;
        margin-top: 18%;}
      .main-section{
        padding-top: 0px;
-       background-position: 90% 0%;
-       background-size: 48%;
+       background-position: 62% 0%;
+       background-size: 28%;
        margin-right: -46%;
        }
      .main-content__title{
@@ -488,6 +510,7 @@ transition: opacity 1s, width .5s;
         padding-top: 163px;
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
         transition-duration: .25s;
+        margin-top: 0%;
       }
     .menu-burger__item{
         display: block;
@@ -496,9 +519,12 @@ transition: opacity 1s, width .5s;
         font-size: 30px;
         font-weight: 500;
         text-decoration: none;
-        height: 60px;
+        height: 41px;
         opacity: 1;
         transition-duration: .25s;
+        margin-left: -19%;
+        line-height: 115%;
+        margin-top: 4%;
       }
     .menu-burger__item:hover{
         opacity: 0.5;
@@ -524,5 +550,8 @@ transition: opacity 1s, width .5s;
       }
     #menu__toggle:checked ~ body {
       overflow-y: hidden;
+      }
+      .tochki__item {
+      margin-top: -2%;
       }
   }
