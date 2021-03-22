@@ -511,6 +511,7 @@ transition: opacity 1s, width .5s;
         box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
         transition-duration: .25s;
         margin-top: 0%;
+        top:0;
       }
     .menu-burger__item{
         display: block;
@@ -551,7 +552,7 @@ transition: opacity 1s, width .5s;
     #menu__toggle:checked ~ body {
       overflow-y: hidden;
       }
-      .tochki__item {
-      margin-top: -2%;
-      }
+    .tochki{
+      display: none;
+    }
   }
