@@ -158,6 +158,7 @@ transition: opacity 1s, width .5s;
 }
 .main-content__button:hover{
   opacity: .5;
+  animation: button 2s 1 ease-in-out;
 }
 .hamburger-menu{
   display: none;
@@ -556,3 +557,35 @@ transition: opacity 1s, width .5s;
       display: none;
     }
   }
+  @keyframes bounce {
+    from{
+     font-size: 24px;
+  }
+  to {
+     font-size: 55px;
+  }
+}
+@keyframes logo {
+    from{
+      width: 28px;
+      height: 28px;
+    }
+    to{
+      width: 36px;
+      height: 36px;
+    }
+}
+@keyframes button {
+    from{
+      font-size: 18px;
+    }
+    to{
+      font-size: 22px;
+    }
+}
+.logo__name:hover{
+animation: bounce 2s 1 ease-in-out;
+}
+.logo__circle:hover{
+  animation: logo 2s 1 ease-in-out;
+}
