@@ -6,16 +6,17 @@ body {
   margin: auto;
 }
 .header {
-  /*border: dashed 1px green;*/
+  /* border: dashed 1px green; */
   display: flex;
   justify-content: space-between;
   padding:0;
 }
 .logo{
   position: relative;
-  padding:30px 0;
+  padding: 30px 0;
   padding-left: 41px;
-  /*background-image: url('img/logo.svg');*/
+
+  /* background-image: url('img/logo.svg'); */
   width: 190px;
   height: 35px;
   font-family: 'pt_serifbold','arial', 'helvetica', 'sans-serif';
@@ -23,10 +24,11 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 32px;
-  /*border: dashed 1px red;*/
-  /*font: bold 24px/31px 'pt_serif', 'arial', 'helvetica', 'sans-serif';*/
+  /* border: dashed 1px red; */
+  /* font: bold 24px/31px 'pt_serif', 'arial', 'helvetica', 'sans-serif'; */
 }
-.logo__circle{
+
+.logo__circle {
   width: 28px;
   height: 28px;
   /*border: dashed 1px red;*/
@@ -36,14 +38,16 @@ body {
   transform: translateY(-50%);
   border-radius: 50%;
 }
+
 .logo__circle_color_dark-blue{
   background: #0056EC;
   opacity: 0.7;
 }
+
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
-  background: #C8DBFB;
+  background: #c8dbfb;
   opacity: 0.7;
 }
 .menu{
@@ -60,15 +64,17 @@ body {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: #000000;
+  color: #000;
   text-decoration: none;
   position: relative;
   transition: color 0.5s;
-  /*font: bold 18px/500 'Roboto', 'arial', 'helvetica', 'sans-serif'*/;
+  /* font: bold 18px/500 'Roboto', 'arial', 'helvetica', 'sans-serif' */;
 }
+
 .menu__item:hover{
-  color: #0056EC;
-  /*.menu__item::before{
+  color: #0056ec;
+
+  /* .menu__item::before{
   display: inline;
   position:absolute;
   content: '';
@@ -77,18 +83,20 @@ body {
   border-radius: 50%;
   top: 8px;
   left: -8px;
-  background:blue;*/
+  background:blue; */
 }
-.menu__item:nth-child(1){
+
+.menu__item:nth-child(1) {
+  margin-right: 12px;
+}
+.menu__item:nth-child(2) {
   margin-right:12px;
 }
-.menu__item:nth-child(2){
-  margin-right:12px;
-}
-.menu__item:last-child{
+.menu__item:last-child {
   margin-right: 0;
 }
-.menu__item_active::after{
+
+.menu__item_active::after {
   display:block;
   position: absolute;
   content: '';
