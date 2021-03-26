@@ -151,9 +151,7 @@ body {
 }
 
 .main__title-text_highlight {
-  background: linear-gradient(180deg,
-     rgba(255,255,255,1) 15%,
-     #ecf3ff 15%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
 }
 
 .main-content__subtitle {
@@ -170,7 +168,7 @@ body {
 }
 
 .main-content__button {
-  font-family: Roboto,sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -299,9 +297,7 @@ body {
   }
 
   .main__title-text_highlight {
-    background: linear-gradient(180deg,
-      rgba(255,255,255,1) 15%,
-      #ecf3ff 15%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
   }
 
   .main-content__subtitle {
@@ -486,9 +482,7 @@ body {
   }
 
   .main__title-text_highlight {
-    background: linear-gradient(180deg,
-      rgba(255,255,255,1) 15%,
-      #ecf3ff 15%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 15%, #ecf3ff 15%);
   }
 
   .main-content__subtitle {
@@ -541,7 +535,6 @@ body {
     top: 65%;
     background: #c8dbfb;
     opacity: 0.7;
-
   }
 
   .logo__circle_color_dark-blue {
