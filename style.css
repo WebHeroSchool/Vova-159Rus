@@ -21,7 +21,7 @@ body {
   /* background-image: url('img/logo.svg'); */
   width: 190px;
   height: 35px;
-  font-family: 'pt_serifbold','arial','helvetica','sans-serif';
+  font-family: pt_serifbold,arial,helvetica,sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -66,7 +66,7 @@ body {
 
 .menu__item {
   margin: 0 14px;
-  font-family: 'Roboto', 'helvetica', 'sans-serif';
+  font-family: Roboto, helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -139,7 +139,7 @@ body {
 .main-content__title {
   width: 567px;
   height: 255px;
-  font-family: 'pt_serifbold', 'arial','helvetica', 'sans-serif';
+  font-family: pt_serifbold, arial,helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 66px;
@@ -157,7 +157,7 @@ body {
 .main-content__subtitle {
   width: 455px;
   height: 52px;
-  font-family: 'Roboto', 'sans-serif';
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 22px;
@@ -168,7 +168,7 @@ body {
 }
 
 .main-content__button {
-  font-family: 'Roboto','sans-serif';
+  font-family: Roboto,sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -234,7 +234,7 @@ body {
   }
 
   .logo__name {
-    font-family: 'pt_serifbold', 'sans-serif', 'arial';
+    font-family: pt_serifbold, sans-serif, arial;
     font-weight: 700;
     font-style: normal;
     font-size: 24px;
@@ -259,7 +259,7 @@ body {
   }
 
   .menu__item {
-    font-family: 'Roboto', 'arial', 'sans-serif';
+    font-family: Roboto, arial, sans-serif;
     font-style: normal;
     font-size: 14px;
     line-height: 16px;
@@ -287,7 +287,7 @@ body {
   }
 
   .main-content__title {
-    font-family: 'pt_serifbold','sans-serif','arial';
+    font-family: pt_serifbold,sans-serif,arial;
     font-weight: 700;
     font-style: normal;
     font-size: 50px;
@@ -301,7 +301,7 @@ body {
   }
 
   .main-content__subtitle {
-    font-family: 'Roboto','arial','sans-serif';
+    font-family: Roboto,arial,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
@@ -311,7 +311,7 @@ body {
   }
 
   .main-content__button {
-    font-family: 'Roboto','arial','sans-serif';
+    font-family: Roboto,arial,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -467,7 +467,7 @@ body {
   }
 
   .main-content__title {
-    font-family: 'pt_serifbold', 'arial', 'helvetica', 'sans-serif';
+    font-family: pt_serifbold, arial, helvetica, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 30px;
@@ -486,7 +486,7 @@ body {
   }
 
   .main-content__subtitle {
-    font-family: 'Roboto', 'arial','helvetica', 'sans-serif';
+    font-family: Roboto, arial,helvetica, sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -517,7 +517,7 @@ body {
   }
 
   .main-content__button {
-    font-family: 'Roboto','sans-serif';
+    font-family: Roboto,sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -612,7 +612,7 @@ body {
   .menu-burger__item {
     display: block;
     color: #333;
-    font-family: 'Roboto','sans-serif','arial';
+    font-family: Roboto,sans-serif,arial;
     font-size: 30px;
     font-weight: 500;
     text-decoration: none;
